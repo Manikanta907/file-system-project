@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>File System Control</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+
+
+<h1> FILE CONTROL SYSTEM </h1>
+
+<div class="top-bar">
+  <input type="text" id="name" placeholder="FILE NAME">
+  <input type="number" id="size" placeholder="SIZE">
+</div>
+
+<div class="layout">
+
+  <!-- LEFT PANEL -->
+  <div class="left-panel">
+    <button onclick="runCommand('CREATE')">CREATE</button>
+    <button onclick="runCommand('DELETE')">DELETE</button>
+    <button onclick="runCommand('READ')">READ</button>
+    <button onclick="runCommand('CRASH')">CRASH</button>
+    <button onclick="runCommand('RECOVER')">RECOVER</button>
+    <button onclick="runCommand('OPTIMIZE')">OPTIMIZE</button>
+    <button onclick="runCommand('LIST')">LIST FILES</button>
+  </div>
+
+  <!-- RIGHT PANEL -->
+  <div class="right-panel">
+    <pre id="output">> SYSTEM READY...</pre>
+  </div>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>

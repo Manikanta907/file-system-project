@@ -1,0 +1,16 @@
+CREATE babi.txt 400
+DELETE 
+CREATE file1 5
+CREATE manikanta naidu 3
+DELETE manikanta naidu
+DELETE manikanta naidu
+CREATE dxdxcxxse 5
+CREATE babi 5
+DELETE ngthj
+DELETE ngthj
+CREATE ngthj 55
+CREATE babi tanukula 5
+CREATE babi tanukula 5
+CREATE nani 5
+DELETE nani
+DELETE nani

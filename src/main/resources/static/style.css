@@ -1,0 +1,80 @@
+body {
+    margin: 0;
+    background: linear-gradient(135deg, #0f0f0f, #1a0033);
+    color: #00ffcc;
+    font-family: 'Courier New', monospace;
+}
+
+
+
+/* TITLE */
+h1 {
+    text-align: center;
+    color: #00ffcc;
+    text-shadow: 0 0 15px #00ffcc, 0 0 30px #00ccff;
+}
+
+/* INPUT BAR */
+.top-bar {
+    text-align: center;
+    margin: 20px;
+}
+
+.top-bar input {
+    background: #111;
+    border: 1px solid #00ccff;
+    color: #00ffcc;
+    padding: 10px;
+    margin: 5px;
+    width: 200px;
+    border-radius: 8px;
+}
+
+/* LAYOUT */
+.layout {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+/* LEFT PANEL */
+.left-panel {
+    width: 30%;
+    display: grid;
+    gap: 12px;
+}
+
+/* BUTTONS */
+button {
+    background: linear-gradient(45deg, #00ffcc, #00ccff);
+    border: none;
+    color: black;
+    padding: 12px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+button:hover {
+    background: linear-gradient(45deg, #ff00ff, #00ffcc);
+    transform: scale(1.05);
+    box-shadow: 0 0 15px #00ffcc;
+}
+
+/* RIGHT PANEL */
+.right-panel {
+    width: 60%;
+    background: rgba(0, 0, 0, 0.7);
+    border: 1px solid #00ccff;
+    padding: 15px;
+    height: 400px;
+    overflow-y: auto;
+    border-radius: 10px;
+    box-shadow: 0 0 20px #00ccff;
+}
+
+pre {
+    white-space: pre-wrap;
+    color: #00ffcc;
+}
